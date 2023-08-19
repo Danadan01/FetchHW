@@ -1,0 +1,41 @@
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(210, 231, 91);
+}
+
+.catDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.catDiv img {
+  margin: 15px;
+  border-radius: 12px;
+}
+
+body {
+  background-color: #813bd8;
+}
+
+label {
+  color: rgb(210, 231, 91);
+  font-weight: bold;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#catGetButton {
+  font-family: "Verdana", sans-serif;
+}
+
+#catGetButton:hover {
+  background: linear-gradient(27deg, #f30f07, #ff9900, #ffee01, #33ff00, #00fff2, #0145ff, #7802ff);;
+  color: black;
+}
